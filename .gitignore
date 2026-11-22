@@ -1,0 +1,10 @@
+
+# Auto-generated exclusions for GitHub push
+.venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/
+*.zip
+.env
+.devcontainer/

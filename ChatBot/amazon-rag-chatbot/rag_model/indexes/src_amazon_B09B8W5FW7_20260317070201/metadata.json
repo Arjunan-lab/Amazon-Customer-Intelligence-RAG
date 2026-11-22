@@ -1,0 +1,20 @@
+{
+  "sourceId": "src_amazon_B09B8W5FW7_20260317070201",
+  "sourceType": "amazon-url",
+  "mode": "amazon-product",
+  "url": "https://www.amazon.com/dp/B09B8W5FW7",
+  "asin": "B09B8W5FW7",
+  "productName": "Echo Dot (5th Gen)",
+  "reviewsCount": 2,
+  "createdAt": "2026-03-17T07:02:01.511Z",
+  "status": "ready",
+  "errors": [],
+  "product": {
+    "name": "Echo Dot (5th Gen)",
+    "asin": "B09B8W5FW7",
+    "rating": 4.7,
+    "reviewCount": 12450,
+    "thumbnail": "🔊"
+  },
+  "persist": true
+}

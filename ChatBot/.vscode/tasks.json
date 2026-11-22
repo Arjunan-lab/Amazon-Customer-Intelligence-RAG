@@ -1,0 +1,58 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "probe-task",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-NoProfile",
+				"-Command",
+				"Get-Date | Out-File -FilePath './task_probe.txt' -Encoding utf8"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "run-e2e-feedback-test",
+			"type": "shell",
+			"command": "node",
+			"args": [
+				"./amazon-rag-chatbot/backend/tmp_e2e_feedback_test.js"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "run-e2e-feedback-test-2",
+			"type": "shell",
+			"command": "node",
+			"args": [
+				"./amazon-rag-chatbot/backend/tmp_e2e_feedback_test.js"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "build-frontend",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"./amazon-rag-chatbot/frontend",
+				"run",
+				"build"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "build-frontend-after-audit",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"./amazon-rag-chatbot/frontend",
+				"run",
+				"build"
+			],
+			"isBackground": false
+		}
+	]
+}

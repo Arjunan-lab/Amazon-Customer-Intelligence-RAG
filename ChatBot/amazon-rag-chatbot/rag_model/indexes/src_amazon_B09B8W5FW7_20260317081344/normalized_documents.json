@@ -1,0 +1,28 @@
+[
+  {
+    "id": "review_B09B8W5FW7_0001",
+    "product": "Echo Dot (5th Gen)",
+    "text": "Great battery life!",
+    "rating": 5,
+    "date": "2024-01-10",
+    "verified": false,
+    "source": "url-ingest",
+    "source_url": "https://www.amazon.in/dp/B09B8W5FW7",
+    "source_type": "amazon-url",
+    "source_id": "src_amazon_B09B8W5FW7_20260317081344",
+    "asin": "B09B8W5FW7"
+  },
+  {
+    "id": "review_B09B8W5FW7_0002",
+    "product": "Echo Dot (5th Gen)",
+    "text": "Sound is a bit tinny.",
+    "rating": 3,
+    "date": "2024-02-15",
+    "verified": false,
+    "source": "url-ingest",
+    "source_url": "https://www.amazon.in/dp/B09B8W5FW7",
+    "source_type": "amazon-url",
+    "source_id": "src_amazon_B09B8W5FW7_20260317081344",
+    "asin": "B09B8W5FW7"
+  }
+]

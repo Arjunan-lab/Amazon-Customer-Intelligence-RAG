@@ -1,0 +1,23 @@
+{
+  "sourceId": "src_amazon_B0FQF331K6_20260322060721",
+  "sourceType": "amazon-url",
+  "mode": "amazon-product",
+  "url": "https://www.amazon.in/dp/B0FQF331K6",
+  "originalUrl": "https://www.amazon.in/dp/B0FQF331K6",
+  "asin": "B0FQF331K6",
+  "resolutionMethod": "direct-asin",
+  "productName": "iPhone 17 Pro Max 2 TB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Cosmic Orange",
+  "reviewsCount": 6,
+  "createdAt": "2026-03-22T06:07:25.520Z",
+  "status": "ready",
+  "errors": [],
+  "product": {
+    "name": "iPhone 17 Pro Max 2 TB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Cosmic Orange",
+    "asin": "B0FQF331K6",
+    "rating": null,
+    "reviewCount": 0,
+    "thumbnail": null,
+    "sourceUrl": "https://www.amazon.in/dp/B0FQF331K6"
+  },
+  "persist": true
+}

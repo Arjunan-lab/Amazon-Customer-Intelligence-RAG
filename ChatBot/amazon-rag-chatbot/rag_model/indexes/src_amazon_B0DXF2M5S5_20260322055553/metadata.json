@@ -1,0 +1,23 @@
+{
+  "sourceId": "src_amazon_B0DXF2M5S5_20260322055553",
+  "sourceType": "amazon-url",
+  "mode": "amazon-product",
+  "url": "https://www.amazon.in/dp/B0DXF2M5S5",
+  "originalUrl": "https://www.amazon.in/dp/B0DXF2M5S5",
+  "asin": "B0DXF2M5S5",
+  "resolutionMethod": "direct-asin",
+  "productName": "ASUS TUF Gaming F16,Smartchoice,Intel Core 5 Processor 210H,14th Gen Gaming Laptop(RTX 4050-6GB/140WTGP/16GB/512GB/FHD+/16\"/144Hz/Win 11/M365 Basic(1Year)*/Office-24/Mecha Gray/2.20 Kg)FX677VU-RL055WS",
+  "reviewsCount": 7,
+  "createdAt": "2026-03-22T05:55:57.206Z",
+  "status": "ready",
+  "errors": [],
+  "product": {
+    "name": "ASUS TUF Gaming F16,Smartchoice,Intel Core 5 Processor 210H,14th Gen Gaming Laptop(RTX 4050-6GB/140WTGP/16GB/512GB/FHD+/16\"/144Hz/Win 11/M365 Basic(1Year)*/Office-24/Mecha Gray/2.20 Kg)FX677VU-RL055WS",
+    "asin": "B0DXF2M5S5",
+    "rating": null,
+    "reviewCount": 0,
+    "thumbnail": null,
+    "sourceUrl": "https://www.amazon.in/dp/B0DXF2M5S5"
+  },
+  "persist": true
+}

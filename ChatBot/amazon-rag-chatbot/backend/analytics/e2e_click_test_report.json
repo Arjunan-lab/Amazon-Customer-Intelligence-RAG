@@ -1,0 +1,144 @@
+{
+  "startedAt": "2026-03-22T07:09:08.181Z",
+  "server": {
+    "usedExisting": false,
+    "startedByScript": true,
+    "healthReady": true
+  },
+  "checks": {
+    "thumbsUp": true,
+    "thumbsDownWithReason": true,
+    "candidateResponseReceived": false,
+    "candidateTapSimulated": false,
+    "skeletonCodePathPresent": true
+  },
+  "details": {
+    "thumbsUpResponse": {
+      "status": 200,
+      "ok": true,
+      "body": {
+        "success": true,
+        "feedback": {
+          "requestId": "e5e5b074-c835-48c5-b0b1-4dc2b997745a",
+          "vote": "up",
+          "reason": null,
+          "linkedQuestion": "Is this product good for everyday use?",
+          "answerPreview": "Sample positive response preview",
+          "sourceId": "src_amazon_B09B8W5FW7_20260317081624",
+          "sourceType": "amazon-url",
+          "mode": "source",
+          "createdAt": "2026-03-22T07:09:11.245Z"
+        },
+        "requestId": "e5e5b074-c835-48c5-b0b1-4dc2b997745a"
+      }
+    },
+    "thumbsDownResponse": {
+      "status": 200,
+      "ok": true,
+      "body": {
+        "success": true,
+        "feedback": {
+          "requestId": "31312bc2-adbc-46f4-807e-3315088ca494",
+          "vote": "down",
+          "reason": "Missing exact spec",
+          "linkedQuestion": "Does it support Bluetooth 5.3?",
+          "answerPreview": "Sample negative response preview",
+          "sourceId": "src_amazon_B09B8W5FW7_20260317081624",
+          "sourceType": "amazon-url",
+          "mode": "source",
+          "createdAt": "2026-03-22T07:09:11.264Z"
+        },
+        "requestId": "31312bc2-adbc-46f4-807e-3315088ca494"
+      }
+    },
+    "feedbackSummary": {
+      "status": 200,
+      "ok": true,
+      "body": {
+        "success": true,
+        "summary": {
+          "totalEvents": 2,
+          "helpful": 1,
+          "unhelpful": 1,
+          "reasons": {
+            "wrongProduct": 0,
+            "missingExactSpec": 1,
+            "outdated": 0,
+            "tooGeneric": 0,
+            "other": 1
+          }
+        },
+        "requestId": "61319a93-32ce-48ed-b26d-ae875eecedaa"
+      }
+    },
+    "candidateResponse": {
+      "status": 200,
+      "ok": true,
+      "meta": {
+        "mode": "dataset",
+        "sourceId": null,
+        "sourceType": "dataset",
+        "requestId": "fed1c764-fb6c-4f42-831d-bac8ea27fc18",
+        "autoSource": {
+          "enabled": true,
+          "applied": false,
+          "error": "No Amazon product match found for 'boat earbuds'."
+        }
+      },
+      "answerPreview": "Not enough information to provide detailed reviews for the specific product you're interested in."
+    }
+  },
+  "feedbackLog": {
+    "beforeCount": 0,
+    "afterCount": 4,
+    "delta": 4,
+    "lastEvents": [
+      {
+        "requestId": "e5e5b074-c835-48c5-b0b1-4dc2b997745a",
+        "vote": "up",
+        "reason": null,
+        "linkedQuestion": "Is this product good for everyday use?",
+        "answerPreview": "Sample positive response preview",
+        "sourceId": "src_amazon_B09B8W5FW7_20260317081624",
+        "sourceType": "amazon-url",
+        "mode": "source",
+        "createdAt": "2026-03-22T07:09:11.245Z"
+      },
+      {
+        "requestId": "31312bc2-adbc-46f4-807e-3315088ca494",
+        "vote": "down",
+        "reason": "Missing exact spec",
+        "linkedQuestion": "Does it support Bluetooth 5.3?",
+        "answerPreview": "Sample negative response preview",
+        "sourceId": "src_amazon_B09B8W5FW7_20260317081624",
+        "sourceType": "amazon-url",
+        "mode": "source",
+        "createdAt": "2026-03-22T07:09:11.264Z"
+      },
+      {
+        "requestId": "6c134fb9-a43f-49a6-bb04-7b24f6f14c7c",
+        "vote": "up",
+        "reason": null,
+        "linkedQuestion": "Is this product good for everyday use?",
+        "answerPreview": "Sample positive response preview",
+        "sourceId": "src_amazon_B09B8W5FW7_20260317081624",
+        "sourceType": "amazon-url",
+        "mode": "source",
+        "createdAt": "2026-03-22T07:09:41.787Z"
+      },
+      {
+        "requestId": "60a9afe4-52be-4749-84d5-838e5b1a1f5d",
+        "vote": "down",
+        "reason": "Missing exact spec",
+        "linkedQuestion": "Does it support Bluetooth 5.3?",
+        "answerPreview": "Sample negative response preview",
+        "sourceId": "src_amazon_B09B8W5FW7_20260317081624",
+        "sourceType": "amazon-url",
+        "mode": "source",
+        "createdAt": "2026-03-22T07:09:41.798Z"
+      }
+    ]
+  },
+  "completedAt": "2026-03-22T07:10:27.728Z",
+  "error": null
+}

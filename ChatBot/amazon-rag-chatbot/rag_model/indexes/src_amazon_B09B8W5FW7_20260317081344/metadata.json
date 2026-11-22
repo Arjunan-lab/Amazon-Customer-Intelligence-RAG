@@ -1,0 +1,22 @@
+{
+  "sourceId": "src_amazon_B09B8W5FW7_20260317081344",
+  "sourceType": "amazon-url",
+  "mode": "amazon-product",
+  "url": "https://www.amazon.in/dp/B09B8W5FW7",
+  "originalUrl": "https://www.amazon.in/mobile-phones/b/?ie=UTF8",
+  "asin": "B09B8W5FW7",
+  "resolutionMethod": "keyword-fallback",
+  "productName": "Echo Dot (5th Gen)",
+  "reviewsCount": 2,
+  "createdAt": "2026-03-17T08:13:44.257Z",
+  "status": "ready",
+  "errors": [],
+  "product": {
+    "name": "Echo Dot (5th Gen)",
+    "asin": "B09B8W5FW7",
+    "rating": 4.7,
+    "reviewCount": 12450,
+    "thumbnail": "🔊"
+  },
+  "persist": true
+}

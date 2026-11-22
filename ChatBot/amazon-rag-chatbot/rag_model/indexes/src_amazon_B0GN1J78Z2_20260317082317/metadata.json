@@ -1,0 +1,23 @@
+{
+  "sourceId": "src_amazon_B0GN1J78Z2_20260317082317",
+  "sourceType": "amazon-url",
+  "mode": "amazon-product",
+  "url": "https://www.amazon.in/dp/B0GN1J78Z2",
+  "originalUrl": "https://www.amazon.in/dp/B0GN1J78Z2",
+  "asin": "B0GN1J78Z2",
+  "resolutionMethod": "direct-asin",
+  "productName": "Amazon Product B0GN1J78Z2",
+  "reviewsCount": 2,
+  "createdAt": "2026-03-17T08:23:17.431Z",
+  "status": "ready",
+  "errors": [],
+  "product": {
+    "name": "Amazon Product B0GN1J78Z2",
+    "asin": "B0GN1J78Z2",
+    "rating": null,
+    "reviewCount": 0,
+    "thumbnail": null,
+    "sourceUrl": "https://www.amazon.in/dp/B0GN1J78Z2"
+  },
+  "persist": true
+}

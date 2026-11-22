@@ -1,0 +1,28 @@
+[
+  {
+    "id": "review_B0FD9RRL1F_0001",
+    "product": "Amazon Product B0FD9RRL1F",
+    "text": "Great battery life!",
+    "rating": 5,
+    "date": "2024-01-10",
+    "verified": false,
+    "source": "url-ingest",
+    "source_url": "https://www.amazon.in/dp/B0FD9RRL1F",
+    "source_type": "amazon-url",
+    "source_id": "src_amazon_B0FD9RRL1F_20260320043254",
+    "asin": "B0FD9RRL1F"
+  },
+  {
+    "id": "review_B0FD9RRL1F_0002",
+    "product": "Amazon Product B0FD9RRL1F",
+    "text": "Sound is a bit tinny.",
+    "rating": 3,
+    "date": "2024-02-15",
+    "verified": false,
+    "source": "url-ingest",
+    "source_url": "https://www.amazon.in/dp/B0FD9RRL1F",
+    "source_type": "amazon-url",
+    "source_id": "src_amazon_B0FD9RRL1F_20260320043254",
+    "asin": "B0FD9RRL1F"
+  }
+]
