@@ -1,0 +1,41 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "rag-backend": {
+      "root": "ChatBot/amazon-rag-chatbot/backend",
+      "framework": "fastapi"
+    },
+    "frontend": {
+      "root": "ChatBot/amazon-rag-chatbot/frontend",
+      "framework": "vite",
+      "bindings": [
+        {
+          "type": "service",
+          "service": "rag-backend",
+          "format": "url",
+          "env": "RAG_BACKEND_URL"
+        }
+      ]
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": {
+        "service": "rag-backend"
+      }
+    },
+    {
+      "source": "/docs",
+      "destination": {
+        "service": "rag-backend"
+      }
+    },
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "frontend"
+      }
+    }
+  ]
+}
